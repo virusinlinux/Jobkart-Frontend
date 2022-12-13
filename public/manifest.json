@@ -1,0 +1,10 @@
+{
+  "name": "Jobcart",
+  "short_name": "Jobcart",
+  "icons": [],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f0f2f5",
+  "theme_color": "#96f2d7"
+}
