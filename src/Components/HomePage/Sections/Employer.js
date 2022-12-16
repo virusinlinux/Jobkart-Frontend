@@ -36,7 +36,7 @@ class KnowAbout extends Component {
                 style={{
                   width: "12rem",
                   borderRadius: "50%",
-                  border: "#bd6997 solid 4px",
+                  border: "orange solid 4px",
                   marginRight: "0px",
                   textAlign: "center"
                 }}
@@ -61,7 +61,7 @@ class KnowAbout extends Component {
                 style={{
                   width: "12rem",
                   borderRadius: "50%",
-                  border: "#bd6997 solid 4px",
+                  border: "orange solid 4px",
                   marginRight: "0px",
                   textAlign: "center"
                 }}
@@ -86,7 +86,7 @@ class KnowAbout extends Component {
                 style={{
                   width: "12rem",
                   borderRadius: "50%",
-                  border: "#bd6997 solid 4px",
+                  border: "orange solid 4px",
                   marginRight: "0px",
                   textAlign: "center"
                 }}
@@ -112,7 +112,7 @@ class KnowAbout extends Component {
                 style={{
                   width: "12rem",
                   borderRadius: "50%",
-                  border: "#bd6997 solid 4px",
+                  border: "orange solid 4px",
                   marginRight: "0px",
                   textAlign: "center"
                 }}
@@ -138,7 +138,7 @@ class KnowAbout extends Component {
                 style={{
                   width: "12rem",
                   borderRadius: "50%",
-                  border: "#bd6997 solid 4px",
+                  border: "orange solid 4px",
                   marginRight: "0px",
                   textAlign: "center"
                 }}

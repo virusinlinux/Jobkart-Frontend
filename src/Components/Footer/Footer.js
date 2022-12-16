@@ -130,7 +130,7 @@ function Footer() {
         Col >
         <
         p > { " " } <
-        BiCopyright / > 2021 Jobcart | All rights reserved. <
+        BiCopyright / > 2022 JOBCART| All rights reserved. <
         /p> <
         /Col> <
         Col className = { styles.SocialLinks } >
@@ -154,7 +154,7 @@ function Footer() {
         Col >
         <
         p className = { styles.Para } > { " " } <
-        BiCopyright / > 2020 Girl Code It | All rights reserved. <
+        // BiCopyright / > 2020 Girl Code It | All rights reserved. <
         /p> <
         /Col> <
         /Row> <

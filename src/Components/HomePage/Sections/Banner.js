@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../../../CSS/Banner.module.css";
 import { Container, Row, Col, Jumbotron, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import BannerImage from "../../../Assets/banner.svg";
+import BannerImage from "../../../Assets/banner.gif";
 import { withTranslation } from "react-i18next";
 
 function Banner({ t }) {
@@ -48,12 +48,12 @@ function Banner({ t }) {
             </a>
           </Col>
           <Col md={6} lg={6} className={styles.rightCol}>
-            <Image
+            {/* <Image
               className={styles.BannerImage}
               src={BannerImage}
               alt="BannerImage"
               fluid
-            />
+            /> */}
           </Col>
         </Row>
       </Container>

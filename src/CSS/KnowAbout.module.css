@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 .Jumbotron {
-  background-color: white;
+  background-color: lightyellow;
   padding-top: 0px;
   /* justify-content: center; */
 }
@@ -10,7 +10,8 @@
 .Heading {
   text-align: center;
   font-size: 50px;
-  font-family: "Poppins", sans-serif;
+  font-family: Luminari, fantasy;
+  color: orange;
 }
 
 .About {
@@ -33,5 +34,6 @@
 }
 
 .Links:hover {
-  color: black;
+  color: orange;
+  font-size:16.2px
 }

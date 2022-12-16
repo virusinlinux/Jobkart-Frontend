@@ -2,10 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 .Jumbotron {
-  background-color: white;
+  /* background-color: lightyellow;
   margin-top: 30px;
   padding-top: 80px;
-  margin-bottom: 0px;
+  margin-bottom: 0px; */
+  background-image: url('https://i.pinimg.com/originals/20/e6/a4/20e6a4f470b3a19b80694b13c099d854.gif');
+/* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .Heading {
@@ -33,7 +39,7 @@
 }
 
 .Button {
-  background-color: #008dc8;
+  background-color: blue;
   border: none;
   color: #fff;
   text-align: center;
@@ -59,9 +65,14 @@
 }
 
 .BannerImage {
-  margin-top: -10%;
-  height: 600px;
-  width: 700px;
+  /* height:100vh;
+  width: 100vw;
+  border: 4px solid black;
+  border-radius: 15px;
+  margin-top: 40px auto;
+  margin-left: 60px;
+ */
+ opacity: 0.5;
 }
 
 @media (min-width: 250px) and (max-width: 344px) {

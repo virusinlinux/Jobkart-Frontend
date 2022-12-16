@@ -9,7 +9,7 @@ function KnowAbout(props) {
         style={{
           width: "10.5rem",
           borderRadius: "50%",
-          border: "#bd6997 solid 4px",
+          border: "4px solid orange",
           marginRight: "0px",
         }}
       >
