@@ -21,7 +21,7 @@
   font-size: 23px;
   text-align: center;
   color: black;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", "Roboto Light";
 }
 
 .CardImage {
@@ -30,6 +30,7 @@
   width: 120px;
   padding: 20px;
   padding-bottom: 0px;
+
 }
 
 @media (min-width: 300px) and (max-width: 531px) {

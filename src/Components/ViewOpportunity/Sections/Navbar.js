@@ -24,9 +24,9 @@ const navbar = ({ t }) => {
   return (
     <Navbar fixed="top" bg="light" expand="lg" className={styles.NavBar}>
       <Navbar.Brand className={styles.Logo}>
-        <Link to="/" className={styles.Brand} style={{ fontSize: "35px" }}>
-          {t("Roz")}
-          <span style={{ color: "#008dc8" }}>{t("gaar")} </span>
+        <Link to="/" className={styles.Brand} style={{ fontSize: "35px", fontFamily: "fantasy"}}>
+          {t("JOB")}
+          <span style={{ color: "orange" }}>{t("CART")} </span>
         </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

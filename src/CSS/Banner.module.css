@@ -2,27 +2,59 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 .Jumbotron {
-  background-color: white;
-  margin-top: 30px;
-  padding-top: 80px;
-  margin-bottom: 0px;
+  /*!*background-color: lightyellow;*!*/
+  /*margin-top: 30px;*/
+  /*padding-top: 80px;*/
+  /*margin-bottom: 0px;*/
+  /*!*background-image: url("https://unsplash.com/photos/13sk8LUVwMg");*!*/
+
+  background-image: url("https://i.pinimg.com/originals/20/e6/a4/20e6a4f470b3a19b80694b13c099d854.gif");
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  margin-top: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+  background-size: cover;
+
+
 }
 
 .Heading {
-  font-family: "Poppins", sans-serif;
+  /*font-family: "Book Antiqua";*/
   font-size: 70px;
-  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   margin-top: 30px;
+  color: black;
+
 }
 
 .SubHeading {
-  color: #bd6997;
-  font-size: 1.5rem;
+  color: black;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  /*font-family: "Book Antiqua"*/
 }
 
+
 .TagLine {
-  font-family: "Inter", sans-serif;
-  font-size: 1.8rem;
+  /*font-family: "Book Antiqua";*/
+  font-size: 2.3rem;
+  font-family: fantasy;
+  color: white;
+  /*font-weight: bolder;*/
+  text-align: center;
+  /*margin-left: 40px;*/
+
+
 }
 
 .Rectangle {

@@ -3,11 +3,13 @@
 
 .NavBar {
   margin: 0 0;
-  background-color: white !important;
+  background-color: black !important;
+  /*height: 30px;*/
+
 }
 
 .NavBar a {
-  color: black !important;
+  color: orange !important;
   letter-spacing: 0px;
   font-weight: 500;
   font-size: 17px;
@@ -29,6 +31,7 @@
    cursor: pointer;
    position: absolute;
    right: 10px;
+  color: white;
 }
 
 .Logo {
@@ -70,15 +73,15 @@ a:global(.active) {
 }
 
 .Title {
-  color: white;
+  color: black;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
-  margin-left: 8px;
+  margin-left: 43px;
   margin-right: 58px;
 }
 
 .Dropdown {
-  background-color: #008dc8;
+  background-color: #FFA500;
   border: none;
   color: #fff;
   /* margin-left: 390%; */

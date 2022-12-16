@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../../../CSS/Banner.module.css";
 import { Container, Row, Col, Jumbotron, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import BannerImage from "../../../Assets/banner.svg";
+import BannerImage from "../../../Assets/banner.jpg";
 import { withTranslation } from "react-i18next";
 
 function Banner({ t }) {
@@ -12,21 +12,21 @@ function Banner({ t }) {
         <Row>
           <Col md={6} lg={6} className={styles.leftCol}>
             <h1 className={styles.Heading}>
-              {t("Roz")}
-              <span style={{ color: "#008dc8" }}>{t("gaar")} </span>
+              {t("")}
+              <span style={{ color: "black" }}>{t("")} </span>
             </h1>
-            <div className={styles.Rectangle} />
+            {/*<div className={styles.Rectangle} />*/}
             <h2 className={styles.TagLine}>
-              {t("Join your hands together.")}
-              <br></br>
-              {t("Not to beg, but to welcome")}
-              <br></br>
-              {t("new opportunities!")}
+              {t("A Job Portal for Unorganized Sector ")}
+              {/*<br></br>*/}
+              {/*{t("Not to beg, but to welcome")}*/}
+              {/*<br></br>*/}
+              {/*{t("new opportunities!")}*/}
             </h2>
             <Row>
               <Col>
                 <p className={styles.SubHeading}>{t("Employer")}</p>
-                <p style={{ textAlign: "justify" }}>
+                <p style={{ textAlign: "justify", color: "black", fontFamily: "Poppins", fontWeight: "bolder", fontSize: "20px" }}>
                   <a href="#categories">{t("See available candidates")}</a>{" "}
                   {t("or")} <Link to="/jobs/post">{t("Post New Job")}</Link>{" "}
                   {t("if you don't find any")}
@@ -35,7 +35,7 @@ function Banner({ t }) {
               </Col>
               <Col>
                 <p className={styles.SubHeading}>{t("Job Seeker")}</p>
-                <p style={{ textAlign: "justify" }}>
+                <p style={{ textAlign: "justify", color: "black", fontFamily: "Poppins", fontWeight: "bolder", fontSize: "20px" }}>
                   <Link to="/user/register">{t("Register")}</Link>{" "}
                   {t("your profile and get hired or manually")}{" "}
                   <a href="#categories"> {t("apply")}</a> {t("to jobs.")}
@@ -48,12 +48,12 @@ function Banner({ t }) {
             </a>
           </Col>
           <Col md={6} lg={6} className={styles.rightCol}>
-            <Image
-              className={styles.BannerImage}
-              src={BannerImage}
-              alt="BannerImage"
-              fluid
-            />
+            {/*<Image*/}
+            {/*  className={styles.BannerImage}*/}
+            {/*  src={BannerImage}*/}
+            {/*  alt="BannerImage"*/}
+            {/*  fluid*/}
+            {/*/>*/}
           </Col>
         </Row>
       </Container>

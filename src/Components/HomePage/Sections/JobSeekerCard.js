@@ -11,6 +11,7 @@ function KnowAbout(props) {
           borderRadius: "50%",
           border: "#bd6997 solid 4px",
           marginRight: "0px",
+
         }}
       >
         {/* <Card.Header style = {{background: "#bd6997"}}></Card.Header> */}

@@ -31,10 +31,10 @@ a:hover {
 
 .Background {
   margin-top: 5%;
-  background-color: #bd6997;
+  background-color: lightyellow;
 }
 .Opportunity {
-  color: #fff;
+  color: black;
   padding: 3%;
   padding-bottom: 3%;
   text-align: center;
@@ -52,12 +52,13 @@ a:hover {
   margin-left: 15px;
   color: #008dc8;
   font-size: 35px;
-  font-family: "Poppins", sans-serif;
+  font-family: "lucida calligraphy", cursive;
 }
+
 .Title2 {
   margin-top: 0px;
   margin-left: 15px;
-  color: "blue";
+  color: blue;
   font-size: 25px;
   font-family: "Poppins", sans-serif;
 }
