@@ -1,6 +1,5 @@
 # Jobcart Job Search App for Blue Collar Workers
 
-![Alt Text](https://media.giphy.com/media/A8pRmkexvl9jCdzS5D/giphy.gif)
 
 ## ❓ Problem Statement
 
