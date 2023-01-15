@@ -53,7 +53,7 @@ const navbar = ({ t }) => {
 								{t("All Jobs")}
 							</Nav.Link>
 						</NavDropdown.Item>
-
+            
 						<NavDropdown.Item>
 							<Nav.Link as={Link} to="/jobs/electrician">
 								{t("Electrician")}
