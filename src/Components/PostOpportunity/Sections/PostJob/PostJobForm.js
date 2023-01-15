@@ -50,37 +50,37 @@ class PostJobForm extends Component {
     else if (this.state.category === "सुरक्षा गार्ड") englishCategory = "SECURITY GUARD";
     else englishCategory = this.state.category;
     axios
-      .post("https://pacific-taiga-02637.herokuapp.com/jobs", {
-        title: this.state.title,
-        recruiterEmailId: this.state.recruiterEmailId,
-        recruiterPhoneNumber: this.state.recruiterPhoneNumber,
-        category: englishCategory,
-        description: this.state.description,
-        location: this.state.location,
-        offeredSalary: this.state.offeredSalary,
-        numberOfPositions: this.state.numberOfPositions,
-      })
-      .then((response) => {
-        console.log(response);
-        const data = response.data;
-        this.setState({ data });
-        alert("Job Posted");
+		.post("http://localhost:3030/jobs", {
+			title: this.state.title,
+			recruiterEmailId: this.state.recruiterEmailId,
+			recruiterPhoneNumber: this.state.recruiterPhoneNumber,
+			category: englishCategory,
+			description: this.state.description,
+			location: this.state.location,
+			offeredSalary: this.state.offeredSalary,
+			numberOfPositions: this.state.numberOfPositions,
+		})
+		.then((response) => {
+			console.log(response);
+			const data = response.data;
+			this.setState({ data });
+			alert("Job Posted");
 
-        this.setState({
-          title: "",
-          recruiterEmailId: "",
-          recruiterPhoneNumber: "",
-          category: "",
-          description: "",
-          location: "",
-          offeredSalary: "",
-          numberOfPositions: "",
-        });
-      })
-      .catch((error) => {
-        console.log(error);
-        // alert("Invalid Input");
-      });
+			this.setState({
+				title: "",
+				recruiterEmailId: "",
+				recruiterPhoneNumber: "",
+				category: "",
+				description: "",
+				location: "",
+				offeredSalary: "",
+				numberOfPositions: "",
+			});
+		})
+		.catch((error) => {
+			console.log(error);
+			// alert("Invalid Input");
+		});
 
     // setTimeout(() => {
     //   window.location.href = `/jobs/${role.toLowerCase()}`;

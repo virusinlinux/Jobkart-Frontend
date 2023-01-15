@@ -69,39 +69,39 @@ class UserProfileForm extends Component {
     // console.log(newUser);
 
     axios
-      .post("https://pacific-taiga-02637.herokuapp.com/user/register", {
-        username: this.state.username,
-        phoneNumber: this.state.phoneNumber,
-        aadharNumber: this.state.aadharNumber,
-        category: englishCategory,
-        YOE: this.state.YOE,
-        otherSkills: this.state.otherSkills,
-        currentLocation: this.state.currentLocation,
-        availability: this.state.availability,
-        messageForRecruiter: this.state.messageForRecruiter,
-      })
-      .then((response) => {
-        console.log("SUBMITTTING USER PROFILE", response);
-        const data = response.data;
-        this.setState({ data });
-        alert("Your profile is now visible to Recruiters");
+		.post("http://localhost:3030/user/register", {
+			username: this.state.username,
+			phoneNumber: this.state.phoneNumber,
+			aadharNumber: this.state.aadharNumber,
+			category: englishCategory,
+			YOE: this.state.YOE,
+			otherSkills: this.state.otherSkills,
+			currentLocation: this.state.currentLocation,
+			availability: this.state.availability,
+			messageForRecruiter: this.state.messageForRecruiter,
+		})
+		.then((response) => {
+			console.log("SUBMITTTING USER PROFILE", response);
+			const data = response.data;
+			this.setState({ data });
+			alert("Your profile is now visible to Recruiters");
 
-        this.setState({
-          username: "",
-          phoneNumber: "",
-          aadharNumber: "",
-          category: "",
-          YOE: "",
-          otherSkills: "",
-          currentLocation: "",
-          availability: "",
-          messageForRecruiter: "",
-        });
-      })
-      .catch((error) => {
-        console.log(error);
-        // alert("Invalid Input");
-      });
+			this.setState({
+				username: "",
+				phoneNumber: "",
+				aadharNumber: "",
+				category: "",
+				YOE: "",
+				otherSkills: "",
+				currentLocation: "",
+				availability: "",
+				messageForRecruiter: "",
+			});
+		})
+		.catch((error) => {
+			console.log(error);
+			// alert("Invalid Input");
+		});
 
     // setTimeout(() => {
     //   window.location.href = "/";

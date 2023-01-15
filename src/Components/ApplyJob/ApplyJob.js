@@ -27,7 +27,7 @@ class ApplyJob extends Component {
 
     axios
       .post(
-        `https://pacific-taiga-02637.herokuapp.com/jobs/${this.props.jobId}/apply`,
+        `http://localhost:3030/jobs/${this.props.jobId}/apply`,
         {
           aadharNumber: this.state.aadharNumber,
         }

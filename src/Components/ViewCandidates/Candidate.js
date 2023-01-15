@@ -16,20 +16,20 @@ class Candidate extends Component {
 
   componentDidMount() {
     axios
-      .get(
-        `https://pacific-taiga-02637.herokuapp.com/jobs/candidates/?CATEGORY=${this.props.category}`
-      )
-      .then(
-        (res) => {
-          const data = res.data;
-          console.log(data);
-          this.setState({ data });
-        },
-        (error) => {
-          console.log(error);
-          alert(error);
-        }
-      );
+		.get(
+			`http://localhost:3030/jobs/candidates/?CATEGORY=${this.props.category}`
+		)
+		.then(
+			(res) => {
+				const data = res.data;
+				console.log(data);
+				this.setState({ data });
+			},
+			(error) => {
+				console.log(error);
+				alert(error);
+			}
+		);
   }
 
   render() {
