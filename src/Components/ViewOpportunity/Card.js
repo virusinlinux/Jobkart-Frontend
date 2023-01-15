@@ -57,7 +57,7 @@ const OpportunityCard = (props) => {
           <Row>
             <Card.Img
               variant="top"
-              src="https://ui-avatars.com/api/?background=bd6997&color=fff&name=Roz+Gaar&font-size=0.5&rounded=true"
+              src="https://ui-avatars.com/api/?background=bd6997&color=fff&name=Job+Kart&font-size=0.5&rounded=true"
               // src = {item.image}
               alt={item.company}
               className={styles.CardImage}
