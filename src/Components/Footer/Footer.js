@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Jumbotron, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Logo from "../../Assets/logo.PNG";
+import Logo from "../../Assets/logo.png";
 import styles from "../../CSS/Footer.module.css";
 import {
     FaLinkedinIn,
