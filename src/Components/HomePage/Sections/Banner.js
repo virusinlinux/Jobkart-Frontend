@@ -12,8 +12,8 @@ function Banner({ t }) {
         <Row>
           <Col md={6} lg={6} className={styles.leftCol}>
             <h1 className={styles.Heading}>
-              {t("Roz")}
-              <span style={{ color: "#008dc8" }}>{t("gaar")} </span>
+              {t("Job")}
+              <span style={{ color: "#008dc8" }}>{t("kart")} </span>
             </h1>
             <div className={styles.Rectangle} />
             <h2 className={styles.TagLine}>

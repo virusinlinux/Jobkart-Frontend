@@ -18,8 +18,8 @@ function navbar({ t }) {
     <Navbar fixed="top" bg="light" expand="lg" className={styles.NavBar}>
       <Navbar.Brand className={styles.Logo}>
         <Link to="/" className={styles.Brand} style={{ fontSize: "35px" }}>
-          {t("Roz")}
-          <span style={{ color: "#008dc8" }}>{t("gaar")} </span>
+          {t("Job")}
+          <span style={{ color: "#008dc8" }}>{t("kart")} </span>
         </Link>
       </Navbar.Brand>
 
